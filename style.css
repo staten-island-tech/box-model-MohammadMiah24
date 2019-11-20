@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    font-size: 62.5%;
     box-sizing: border-box;
 }
 
@@ -15,6 +16,30 @@ body{
     color: honeydew;
     text-align: center;
     font: italic 1.2em "Fira Sans", serif;
-    border: 9px solid;
+    border: 0.9rem solid;
     border-color: #32a1ce red;
+    background-color: royalblue;
+    background: linear-gradient(rgb(23, 79, 182), rgb(22, 236, 208));
+}
+
+h1{
+    font-size: 5rem;
+}
+
+p{
+    font-size: 3rem;
+}
+
+b{
+    position: absolute;
+    left: 42.5%;
+    top: 30%;
+    z-index: 2;
+}
+
+img{
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    z-index: 1;
 }
