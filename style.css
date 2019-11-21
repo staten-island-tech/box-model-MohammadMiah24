@@ -13,6 +13,7 @@ body{
 
 .Header{
     font-size: 2.5em;
+    text-transform: uppercase;
     color: honeydew;
     text-align: center;
     font: italic 1.2em "Fira Sans", serif;
@@ -22,6 +23,15 @@ body{
     background: linear-gradient(rgb(23, 79, 182), rgb(22, 236, 208));
 }
 
+#exciting {
+    background: linear-gradient(to bottom, #190061, #240090);
+    border: 0.2rem solid #000000;
+    padding: 0.3rem;
+    border-radius: 0.1rem;
+    box-shadow: 0.2rem 0.2rem 0.1rem black;
+}
+
+
 h1{
     font-size: 5rem;
 }
@@ -30,16 +40,34 @@ p{
     font-size: 3rem;
 }
 
-b{
+.Pic1{
     position: absolute;
+    border:0.5rem solid black;
     left: 42.5%;
     top: 30%;
     z-index: 2;
 }
 
-img{
+.Pic2{
     position: absolute;
+    border:0.5rem solid black;
     left: 25%;
     top: 45%;
     z-index: 1;
 }
+
+.Pic3{
+    position: absolute;
+    border:0.5rem solid black;
+    left: 55%;
+    top: 45%;
+}
+
+.Pic4{
+    position: absolute;
+    border:0.5rem solid black;
+    left: 42.5%;
+    top: 70%;
+    z-index: 2;
+}
+
